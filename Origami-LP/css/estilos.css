@@ -423,3 +423,105 @@ footer div #twitter:hover
     display: block;
     text-align: right;
 }
+
+#ventana-dialogo > div #acciones a
+{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.gris
+{
+    background-color: #999;
+}
+
+.normal
+{
+    background-color: #00adee;
+}
+
+#overlay2
+{
+    position: fixed;
+    display: block;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
+}
+
+#dialogo2
+{
+    position: fixed;
+    display: block;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    padding: 40px 40px 30px;
+    -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#dialogo2 h4
+{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+#dialogo2 p
+{
+    position: relative;
+    display: block;
+    margin: 0;
+}
+
+#dialogo2 #acciones2
+{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+}
+
+#dialogo2 #acciones2 a
+{
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 10px 8px;
+    color: #00adee;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+}
+
+#dialogo2 #acciones2 a:hover
+{
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
